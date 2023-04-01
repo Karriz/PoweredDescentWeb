@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | AstroGame</title>
+    <title>Unity WebGL Player | Powered Descent</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=960 height=540></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">AstroGame</div>
+        <div id="unity-build-title">Powered Descent</div>
       </div>
     </div>
     <script>
@@ -62,8 +62,8 @@
         frameworkUrl: buildUrl + "/Web.framework.js",
         codeUrl: buildUrl + "/Web.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "AstroGame",
+        companyName: "Karri Ojala",
+        productName: "Powered Descent",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
@@ -92,7 +92,7 @@
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
         canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.height = "540px";
       }
 
       loadingBar.style.display = "block";
